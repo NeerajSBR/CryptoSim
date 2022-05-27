@@ -19,7 +19,7 @@
         </intent>
     </queries>
    <application
-        android:label="CrypSim"
+        android:label="crypsim"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

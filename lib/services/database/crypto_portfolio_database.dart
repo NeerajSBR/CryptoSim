@@ -186,8 +186,6 @@ class CryptoPortfolioDatabaseService {
     portfolioCollection.doc(uid).set({
       "cryptoInvested": 0.0,
       "currentCryptoValue": 0.0,
-      "stocksInvested": 0.0,
-      "currentStocksValue": 0.0
     });
   }
 
