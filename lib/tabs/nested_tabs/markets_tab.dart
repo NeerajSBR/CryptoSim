@@ -27,10 +27,6 @@ class _MarketsTabState extends State<MarketsTab> {
                 'CRYPTO',
                 style: TextStyle(fontSize: 14),
               ),
-              Text(
-                'STOCKS',
-                style: TextStyle(fontSize: 14),
-              ),
             ],
           ),
         ),

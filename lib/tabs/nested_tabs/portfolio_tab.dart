@@ -26,10 +26,6 @@ class _PortfolioTabState extends State<PortfolioTab> {
                 'CRYPTO',
                 style: TextStyle(fontSize: 14),
               ),
-              Text(
-                'STOCKS',
-                style: TextStyle(fontSize: 14),
-              ),
             ],
           ),
         ),
