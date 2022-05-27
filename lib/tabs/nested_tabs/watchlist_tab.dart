@@ -1,5 +1,5 @@
 import 'package:CrypSim/screens/watchlist/crypto_watchlist.dart';
-import 'package:CrypSim/screens/watchlist/stock_watchlist.dart';
+
 import 'package:flutter/material.dart';
 
 import '../../shared/constants.dart';
@@ -38,7 +38,6 @@ class _WatchlistTabState extends State<WatchlistTab> {
         body: TabBarView(
           children: [
             CryptoWatchlist(),
-            StockWatchlist(),
           ],
         ),
       ),

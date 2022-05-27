@@ -1,5 +1,4 @@
 import 'package:CrypSim/screens/news/crypto_news.dart';
-import 'package:CrypSim/screens/news/stocks_news.dart';
 import 'package:flutter/material.dart';
 
 import '../../shared/constants.dart';
@@ -38,7 +37,6 @@ class _NewsTabState extends State<NewsTab> {
         body: TabBarView(
           children: [
             CryptoNews(),
-            StocksNews(),
           ],
         ),
       ),

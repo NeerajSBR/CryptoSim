@@ -1,5 +1,4 @@
 import '../../screens/markets/crypto_market.dart';
-import '../../screens/markets/stock_market.dart';
 import 'package:flutter/material.dart';
 
 import '../../shared/constants.dart';
@@ -38,7 +37,6 @@ class _MarketsTabState extends State<MarketsTab> {
         body: TabBarView(
           children: [
             CryptoMarketPage(),
-            StockMarketPage(),
           ],
         ),
       ),

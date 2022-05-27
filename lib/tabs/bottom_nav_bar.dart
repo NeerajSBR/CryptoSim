@@ -1,4 +1,3 @@
-import 'package:CrypSim/screens/authentication/verify.dart';
 import 'package:CrypSim/screens/settings/user_screen.dart';
 import 'package:CrypSim/screens/watchlist/crypto_watchlist.dart';
 import 'package:CrypSim/services/database/auth.dart';

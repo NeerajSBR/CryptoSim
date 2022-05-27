@@ -1,5 +1,4 @@
 import 'package:CrypSim/screens/portfolio/crypto_portfolio.dart';
-import 'package:CrypSim/screens/portfolio/stock_portfolio.dart';
 import 'package:CrypSim/shared/constants.dart';
 import 'package:flutter/material.dart';
 
@@ -37,7 +36,6 @@ class _PortfolioTabState extends State<PortfolioTab> {
         body: TabBarView(
           children: [
             CryptoPortfolio(),
-            StockPortfolio(),
           ],
         ),
       ),
